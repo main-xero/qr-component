@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Outfit;
+  align-items: center;
+  height: 100vh;
+  background-color: #d5e1ef;
+}
+
+section {
+  width: 320px;
+  height: 499px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background: white;
+  border-radius: 1.25rem;
+  filter: drop-shadow(0 16px 0.8rem #01221f1a);
+}
+
+section.card .image {
+  width: 288px;
+  height: 288px;
+  overflow: hidden;
+  border-radius: 0.78rem;
+  flex-shrink: 0;
+}
+
+section.card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+section .text {
+  padding: 1.4rem 10px 0 10px;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 22px;
+  line-height: 120%;
+  margin-bottom: 16px;
+  letter-spacing: 0px;
+  color: #1f314f;
+}
+
+section p {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: #68778d;
+}
+
+.attribution {
+  padding-top: 82px;
+  font-size: 11px;
+  text-align: center;
+  color: #1f314f;
+  opacity: 0.9;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
